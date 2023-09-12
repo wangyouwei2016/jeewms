@@ -1,13 +1,8 @@
 package com.zzjee.api;
 
-import com.alibaba.fastjson.support.odps.udf.CodecCheck;
 import com.zzjee.BI.BiBinController;
 import com.zzjee.BI.biEntity;
 import com.zzjee.md.controller.MdGoodsController;
-import com.zzjee.md.entity.MdCusEntity;
-import com.zzjee.md.entity.MdGoodsEntity;
-import com.zzjee.md.entity.MvGoodsEntity;
-import com.zzjee.rfid.entity.RfidBuseEntity;
 import com.zzjee.uniapp.entity.WmsAppFunctionEntity;
 import com.zzjee.uniapp.entity.WmsAppRoleEntity;
 import com.zzjee.uniapp.entity.WmsAppUserEntity;
@@ -17,28 +12,16 @@ import com.zzjee.uniapp.service.WmsAppUserServiceI;
 import com.zzjee.wave.controller.WaveToDownController;
 import com.zzjee.wave.controller.WaveToFjController;
 import com.zzjee.wm.controller.*;
-import com.zzjee.wm.entity.WmImNoticeHEntity;
-import com.zzjee.wm.entity.WmImNoticeIEntity;
-import com.zzjee.wm.entity.WmInQmIEntity;
 import com.zzjee.wmapi.controller.WvGiController;
 import com.zzjee.wmapi.controller.WvGiNoticeController;
 import com.zzjee.wmapi.controller.WvNoticeController;
-import com.zzjee.wmapi.entity.WvNoticeEntity;
-import com.zzjee.wmutil.wmUtil;
 import io.swagger.annotations.ApiOperation;
-import io.swagger.models.HttpMethod;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
-import org.jeecgframework.core.beanvalidator.BeanValidators;
 import org.jeecgframework.core.common.hibernate.qbc.CriteriaQuery;
 import org.jeecgframework.core.common.model.json.AjaxJson;
-import org.jeecgframework.core.util.DateUtils;
-import org.jeecgframework.core.util.JSONHelper;
-import org.jeecgframework.core.util.ResourceUtil;
-import org.jeecgframework.core.util.StringUtil;
 import org.jeecgframework.jwt.util.ResponseMessage;
 import org.jeecgframework.jwt.util.Result;
-import org.jeecgframework.p3.core.author.LoginUser;
 import org.jeecgframework.web.system.pojo.base.TSBaseUser;
 import org.jeecgframework.web.system.pojo.base.TSUser;
 import org.jeecgframework.web.system.service.SystemService;
@@ -53,7 +36,6 @@ import org.springframework.web.util.UriComponentsBuilder;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.validation.ConstraintViolation;
 import java.util.*;
 
 /**
@@ -283,8 +265,7 @@ public class ApiController {
         return wmSttInGoodsController.update(wmSttInGoodsstr, uriBuilder);
     }
 
-    //商品列表
-    public static final String GoodsController = "/rest/mdGoodsController";
+
 
     @RequestMapping(value = "/mdGoodsController/list", method = RequestMethod.GET)
     @ResponseBody
