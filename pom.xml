@@ -943,9 +943,11 @@
 			<version>${jedis.version}</version>
 		</dependency>
 		<!-- redis cache end -->
-
-
-
+	 	<dependency>
+			<groupId>com.github.dathlin</groupId>
+			<artifactId>HslCommunication</artifactId>
+			<version>3.3.0</version>
+		</dependency>
 
 	</dependencies>
 
