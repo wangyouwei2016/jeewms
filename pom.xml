@@ -944,21 +944,13 @@
 		</dependency>
 		<!-- redis cache end -->
 
-		<dependency>
-			<groupId>com.nimbusds</groupId>
-			<artifactId>nimbus-jose-jwt</artifactId>
-			<version>6.0</version>
-		</dependency>
-		<dependency>
-			<groupId>com.github.dathlin</groupId>
-			<artifactId>HslCommunication</artifactId>
-			<version>3.3.0</version>
-		</dependency>
+
+
 
 	</dependencies>
 
 	<organization>
-		<name>ZZJEE 智能快速开发平台</name>
+		<name>jeewms</name>
 		<url>www.jeewms.com</url>
 	</organization>
 	<build>
