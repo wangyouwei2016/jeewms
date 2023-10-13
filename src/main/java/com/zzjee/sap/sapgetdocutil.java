@@ -10,21 +10,7 @@ import java.util.List;
 import java.util.Map;
 
 public class sapgetdocutil {
-    //获取镭射清单
-    public static List<wmientity>   getlsqd(String id, String par[]){
-        Map<String, Object> result = new HashMap<String, Object>();
-        List<wmientity> reslit = new ArrayList<wmientity>();
-        try {
-            result = sapWmUtil.getWmlsqd(id);
-            JCoTable restable =  (JCoTable)result.get("IT_OUT");
-            org.jeecgframework.core.util.LogUtil.info("===================获取镭射清单开始===================");
-            reslit = getlistbyparandrable(restable,par);
-            org.jeecgframework.core.util.LogUtil.info("===================获取镭射清单开始===================");
-        } catch (Exception e) {
-                e.printStackTrace();
-        }
-        return  reslit;
-    }
+
 //获取WMDOC
 public static List<wmientity>    getWmdoc(String DOCTYPE,String DOCID,String tablename,String par[]) {
 //    Map<String, Object> result = new HashMap<String, Object>();
