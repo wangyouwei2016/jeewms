@@ -56,9 +56,6 @@ import java.util.Map;
 @RequestMapping("/wmsApiController")
 public class WmsApiController {
 
-    /**
-     * Logger for this class
-     */
     private static final Logger logger = Logger.getLogger(WmsApiController.class);
 
     @Autowired
@@ -349,7 +346,6 @@ public class WmsApiController {
         AjaxJson j = new AjaxJson();
         message = "仓位定义添加成功";
         try{
-
             MdBinEntity mdb = null;
             List<MdBinEntity> mdblist =	systemService.findByProperty(MdBinEntity.class, "kuWeiBianMa", mdBin.getKuWeiBianMa());
             for (MdBinEntity t:mdblist){
@@ -357,8 +353,6 @@ public class WmsApiController {
                     mdb = t;
                 }
             }
-
-//		    MdBinEntity mdBin1 = systemService.findUniqueByProperty(MdBinEntity.class, "kuWeiBianMa", mdBin.getKuWeiBianMa());
             if(mdb ==null ){
                 mdBinService.save(mdBin);
                 j.setObj(mdBin);
@@ -412,8 +406,6 @@ public class WmsApiController {
                 if(!StringUtil.isEmpty(wmImNoticeIEntity.getGoodsCode())){
                     try {
                         MvGoodsEntity mvgoods = systemService.findUniqueByProperty(MvGoodsEntity.class,"goodsId",wmImNoticeIEntity.getGoodsCode());
-//					String date[]=wmImNoticeIEntity.getGoodsCode().split("-");
-
                         long hiti = 0;
                         try {
                             if(StringUtil.isEmpty(wmImNoticeIEntity.getBinPlan())){
