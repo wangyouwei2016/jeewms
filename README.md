@@ -6,7 +6,7 @@ JEEWMSQQ交流群：335607153 1群已满  请加2群  313930553  有任何问题
 android app也已经开源，近期更新会比较频繁 app开源地址   https://gitee.com/erzhongxmu/JeeWMSapp-uni
 大家看到了，star一下，谢谢，本团队会持续更新，一直开源！
 
-开源不易，如果大家需要购买华为云可以通过我们的专属链接，优惠多多 [华为云服务器优惠购买](https://account.huaweicloud.com/obmgr/invitation/invitation.html?bpName=0000000100000002F529029E50A53299E1C24B9DC20691B285756AA52DA030F9E7013E8FF7E22C3EFF074BF9586E43C07842F8F96D38EC45878383D1D406B2F7341FC7D6635CED56&inviteCode=0000000100000002FC491B524CF3FDCE52F12DFD3BB98C8AB2DD5D05BA2CCD464D69E4293D91369A&bindType=1&isDefault=1)
+开源不易，希望大家多多支持，有仓储硬件需求（PDA，RFID，AGV等）的可以找我们代买，保证最优惠的价格。
 
 一、项目简介：
      
@@ -18,6 +18,7 @@ android app也已经开源，近期更新会比较频繁 app开源地址   https
     2、技术特点：基于JAVA的WEB后台，基于UNI-APP开发的PDA系统。
     3、功能特点：涵盖订单管理系统（OMS），仓储管理系统（WMS），计费管理系统（BMS），现场作业系统（RF），第三方接口模块
     4、接口支持：已经对接：SAP ECC，SAP HANA 数据库，用友U8。
+    5，AGV模拟程序：加入了基于PLC的模拟程序，大家可以基于此思路研究AGV的调度。
    
 
 二、业务介绍：    
@@ -70,7 +71,7 @@ android app也已经开源，近期更新会比较频繁 app开源地址   https
 
 # 问题&BUG&建议：请在此提交https://gitee.com/erzhongxmu/jeewms/issues
 
-![微信群](https://images.gitee.com/uploads/images/2021/0513/111753_11c28c2a_544004.jpeg "LTWLLMX_HYFTX8VAPZC~QF4.jpg")
+![AGV调度模拟]![输入图片说明](1111.png)
 ![主页](https://images.gitee.com/uploads/images/2018/1014/235739_2c29bbbf_544004.png "wmshome.png")
 ![仓位使用率](https://images.gitee.com/uploads/images/2018/1015/000747_4eafc335_544004.png "cwsyl.png")
 ![仓位图]![输入图片说明](%E4%BB%93%E4%BD%8D%E5%9B%BE.png)
