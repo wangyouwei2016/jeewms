@@ -425,16 +425,6 @@ public class WmsApiController {
                 }
             }
             wmImNoticeHService.addMain(wmImNoticeH, wmImNoticeIListnew);
-            try {
-                TuiSongMsgUtil.sendMessage("收货通知", Constants.SMS_SEND_TYPE_3,
-                        "RKYYTZ", map, "admin", ResourceUtil.getSessionUserName()
-                                .getUserName());
-            } catch (Exception e) {
-                // TODO: handle exception
-            }
-
-            systemService.addLog(message, Globals.Log_Type_INSERT,
-                    Globals.Log_Leavel_INFO);
         } catch (Exception e) {
             e.printStackTrace();
             message = "进货通知添加失败";
