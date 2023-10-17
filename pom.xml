@@ -953,18 +953,7 @@
 			<artifactId>nimbus-jose-jwt</artifactId>
 			<version>6.0</version>
 		</dependency>
-<<<<<<< HEAD
 
-
-=======
-		<dependency>
-			<groupId>org.p3framework</groupId>
-			<artifactId>jeecg-p3-core</artifactId>
-			<version>1.1.2</version>
-<!--						<scope>system</scope>-->
-<!--						<systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/jeecg-p3-core-1.1.2.jar</systemPath>-->
-		</dependency>
->>>>>>> 72c298e767b3ca5ee1bf65000758a85c743a233e
 		<dependency>
 			<groupId>org.codehaus.groovy</groupId>
 			<artifactId>groovy</artifactId>
