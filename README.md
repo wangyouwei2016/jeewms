@@ -6,7 +6,7 @@ JEEWMSQQ交流群：335607153 1群已满  请加2群  313930553  有任何问题
 android app也已经开源，近期更新会比较频繁 app开源地址   https://gitee.com/erzhongxmu/JeeWMSapp-uni
 大家看到了，star一下，谢谢，本团队会持续更新，一直开源！
 
-开源不易，希望大家多多支持，有仓储硬件需求（PDA，RFID，AGV等）的可以找我们代买，保证最优惠的价格。
+开源不易，希望大家多多支持，有仓储硬件需求（PDA，RFID，AGV等）的可以找我们代买，保证最优惠的价格，官网全新上线，欢迎访问  [公司官网](http://www.huayi-tec.com/)。
 
 一、项目简介：
      
