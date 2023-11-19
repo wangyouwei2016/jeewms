@@ -1,32 +1,7 @@
 演示项目：技术架构为SpringMVC+Hibernat+Minidao(类Mybatis)+Easyui(UI库)+ Jquery + Bootstrap + Ehcache + Redis + Ztree等基础架构
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 一、项目简介：
      
-    JeeWMS在经过多家公司上线运行后，为了降低物流仓储企业的信息化成本，决定全面开源
-    此产品。针对有特殊信息化需求的企业，提供高性价比的实施服务。
-
     产品特点：
     1、适用范围：第三方物流仓储企业，冷链仓库，工厂仓储，海外仓等。
     2、技术特点：基于JAVA的WEB后台，基于UNI-APP开发的PDA系统。
